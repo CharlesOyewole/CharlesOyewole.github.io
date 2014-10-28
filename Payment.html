@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Payment Application</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <script src="http://www.java.com/js/deployJava.js"></script>
+        <script>
+            var attributes = {
+                code:'murach.ui.PaymentApplet.class',
+                archive:'ch17_ex1_Payment.jar',
+                width:400,
+                height:500
+            };
+            var parameters = {};
+            var version = '1.6';
+            deployJava.runApplet(attributes, parameters, version);
+            
+        </script>
+        <div>
+            <h1>Payment Applet</h1>
+            
+        </div>
+    </body>
+</html>
